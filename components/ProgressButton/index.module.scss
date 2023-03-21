@@ -1,0 +1,29 @@
+.progressButtonContainer {
+  position: relative;
+  width: 250px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 8px;
+  border: 1px solid #000;
+  cursor: pointer;
+  overflow: hidden;
+  .progress {
+    width: 250px;
+    height: 40px;
+  }
+  .uninstall, .install {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .uninstall {
+    background-color: #fff;
+    color: green;
+  }
+  .install {
+    background-color: green;
+    overflow: hidden;
+    color: #fff;
+  }
+}
